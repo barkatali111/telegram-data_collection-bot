@@ -1,0 +1,42 @@
+{
+  "name": "telegram-data-collection-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot for collecting publicly shared WhatsApp numbers",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "keywords": [
+    "telegram-bot",
+    "data-collection",
+    "public-data",
+    "whatsapp",
+    "crypto"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "telegraf": "^4.12.2",
+    "axios": "^1.6.2",
+    "cheerio": "^1.0.0-rc.12",
+    "puppeteer": "^21.5.0",
+    "pdfkit": "^0.14.0",
+    "dotenv": "^16.3.1",
+    "winston": "^3.11.0",
+    "moment": "^2.29.4",
+    "lodash": "^4.17.21",
+    "phone": "^3.1.37",
+    "node-cache": "^5.1.2",
+    "validator": "^13.11.0",
+    "rate-limiter-flexible": "^2.4.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1",
+    "eslint": "^8.54.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
